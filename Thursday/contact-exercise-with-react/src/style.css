@@ -1,0 +1,41 @@
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.input-box label:not(.radio) {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box input:not(.radio), select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+table {
+    text-align: center;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 50px auto;
+}
+
+table td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.submit {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
